@@ -1,0 +1,21 @@
+{
+  "name": "whatsapp-monitor",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "mongoose": "^4.9.0",
+    "jsonwebtoken": "^7.3.0",
+    "gonode": "0.1.2"
+  },
+  "devDependencies": {
+    "chai": "*",
+    "chai-http": "*",
+    "mocha": "*"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "engines": {
+    "node": ">= 7.6.0"
+  }
+}
